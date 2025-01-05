@@ -5,7 +5,8 @@
             <img height=14 src="https://media.chatgptautocontinue.com/images/icons/earth/black/icon32.svg">
         </picture>
         &nbsp;English |
-        <a href="docs/zh-cn/LICENSE.md">简体中文</a>
+        <a href="docs/zh-cn/LICENSE.md">简体中文</a> |
+        <a href="docs/hi/LICENSE.md">हिंदी</a>
     </h6>
 </div>
 
