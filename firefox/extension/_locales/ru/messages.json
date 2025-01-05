@@ -1,0 +1,5 @@
+{
+  "appName": { "message": "Омнибокс ChatGPT" },
+  "appAuthor": { "message": "Адам Луи" },
+  "appDesc": { "message": "Введите @chatgpt в адресной строке, чтобы получить ответы от ChatGPT" }
+}

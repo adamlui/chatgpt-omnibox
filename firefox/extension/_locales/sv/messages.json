@@ -1,0 +1,5 @@
+{
+  "appName": { "message": "ChatGPT-fält" },
+  "appAuthor": { "message": "Adam Lui" },
+  "appDesc": { "message": "Skriv @chatgpt i adressfältet för att få svar från ChatGPT" }
+}

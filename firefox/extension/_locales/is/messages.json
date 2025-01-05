@@ -1,0 +1,5 @@
+{
+  "appName": { "message": "ChatGPT Omnibox" },
+  "appAuthor": { "message": "Adam Lui" },
+  "appDesc": { "message": "Sláðu inn @chatgpt í veffangastikunni til að fá svör frá ChatGPT" }
+}

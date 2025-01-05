@@ -1,0 +1,5 @@
+{
+  "appName": { "message": "Omnibox ChatGPT" },
+  "appAuthor": { "message": "Adam Lui" },
+  "appDesc": { "message": "Ketik @chatgpt di bilah alamat untuk mendapatkan jawaban dari ChatGPT" }
+}

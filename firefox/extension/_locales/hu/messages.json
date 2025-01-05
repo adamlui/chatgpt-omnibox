@@ -1,0 +1,5 @@
+{
+  "appName": { "message": "ChatGPT cím- és keresősáv" },
+  "appAuthor": { "message": "Adam Lui" },
+  "appDesc": { "message": "Írja be a @chatgpt parancsot a címsávba, hogy válaszokat kapjon a ChatGPT-től" }
+}
