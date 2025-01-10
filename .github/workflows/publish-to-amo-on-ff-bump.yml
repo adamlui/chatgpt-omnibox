@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout adamlui/brave-omnibox
+      - name: Checkout adamlui/chatgpt-omnibox
         uses: actions/checkout@v4
         with:
           sparse-checkout: firefox
@@ -35,7 +35,7 @@ jobs:
         if: env.VERSION_CHANGED == 'true'
         uses: cardinalby/webext-buildtools-firefox-addons-action@v1
         with:
-          extensionId: 'brave.omnibox@adamlui.com'
+          extensionId: 'chatgpt.omnibox@adamlui.com'
           jwtIssuer: ${{ secrets.AMO_ISSUER }}
           jwtSecret: ${{ secrets.AMO_SECRET }}
           zipFilePath: extension.zip
