@@ -1,4 +1,4 @@
-name: Sync _locales/ between <chromium|firefox>/extension/, then ** to adamlui/ai-apps/brave-omnibox/
+name: Sync _locales/ between <chromium|firefox>/extension/, then ** to adamlui/ai-apps/chatgpt-omnibox/
 
 on:
   push:
@@ -7,19 +7,19 @@ on:
 
 jobs:
   build:
-    if: (github.repository == 'adamlui/brave-omnibox') && (github.event.commits[0].committer.username != 'kudo-sync-bot')
+    if: (github.repository == 'adamlui/chatgpt-omnibox') && (github.event.commits[0].committer.username != 'kudo-sync-bot')
     runs-on: ubuntu-latest
     env:
       TZ: PST8PDT
 
     steps:
 
-      - name: Checkout adamlui/brave-omnibox
+      - name: Checkout adamlui/chatgpt-omnibox
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.REPO_SYNC_PAT }}
-          repository: adamlui/brave-omnibox
-          path: adamlui/brave-omnibox
+          repository: adamlui/chatgpt-omnibox
+          path: adamlui/chatgpt-omnibox
           fetch-depth: 2
 
       - name: Checkout adamlui/ai-apps
@@ -31,7 +31,7 @@ jobs:
 
       - name: Sync _locales/ between <chromium|firefox>/extension/
         run: |
-          cd ${{ github.workspace }}/adamlui/brave-omnibox
+          cd ${{ github.workspace }}/adamlui/chatgpt-omnibox
           ff_dir="firefox/extension/_locales"
           chromium_dir="chromium/extension/_locales"
           
@@ -57,11 +57,11 @@ jobs:
           done
           if [[ "$locales_updated" == true ]] ; then echo "LOCALES_UPDATED=true" >> $GITHUB_ENV ; fi
 
-      - name: Sync ** to adamlui/ai-apps/brave-omnibox/
+      - name: Sync ** to adamlui/ai-apps/chatgpt-omnibox/
         run: |
           rsync -avhr --delete --exclude '.*' \
-            ${{ github.workspace }}/adamlui/brave-omnibox/ \
-            ${{ github.workspace }}/adamlui/ai-apps/brave-omnibox/
+            ${{ github.workspace }}/adamlui/chatgpt-omnibox/ \
+            ${{ github.workspace }}/adamlui/ai-apps/chatgpt-omnibox/
 
       - name: Escape backticks in commit msg
         env:
@@ -79,17 +79,17 @@ jobs:
           git config --global user.email "auto-sync@kudoai.com"
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
 
-      - name: Push changes to adamlui/brave-omnibox
+      - name: Push changes to adamlui/chatgpt-omnibox
         if: env.LOCALES_UPDATED == 'true'
         run: |
-          cd ${{ github.workspace }}/adamlui/brave-omnibox
+          cd ${{ github.workspace }}/adamlui/chatgpt-omnibox
           git add .
-          git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/brave-omnibox]" || true
+          git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/chatgpt-omnibox]" || true
           git push
 
       - name: Push changes to adamlui/ai-apps
         run: |
           cd ${{ github.workspace }}/adamlui/ai-apps
           git add .
-          git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/brave-omnibox]" || true
+          git commit -n -m "$ESCAPED_MSG ↞ [auto-sync from https://github.com/adamlui/chatgpt-omnibox]" || true
           git push
