@@ -5,7 +5,7 @@
   "description": "__MSG_appDesc__",
   "version": "2025.1.5",
   "author": "Adam Lui",
-  "homepage_url": "https://aiwebextensions.com",
+  "homepage_url": "https://www.chatgptomnibox.com",
   "default_locale": "en",
   "action": { "default_title": "ChatGPT" },
   "icons": {
