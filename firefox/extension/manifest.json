@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_appName__",
-  "short_name": "ChatGPT 🔎",
+  "short_name": "__MSG_prefix_ask__ ChatGPT",
   "description": "__MSG_appDesc__",
   "version": "2025.2.18",
   "author": "Adam Lui",
@@ -14,10 +14,10 @@
     "64": "icons/icon64.png",
     "128": "icons/icon128.png"
   },
-  "action": { "default_title": "Ask ChatGPT" },
+  "action": { "default_title": "__MSG_prefix_ask__ ChatGPT" },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "Ask ChatGPT",
+      "name": "ChatGPT",
       "search_url": "https://chatgpt.com?q={searchTerms}",
       "favicon_url": "icons/icon16.png",
       "keyword": "@chatgpt",
