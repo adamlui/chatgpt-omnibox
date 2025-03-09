@@ -1,5 +1,6 @@
 {
   "appName": { "message": "ChatGPT Omnibox" },
   "appAuthor": { "message": "Adan Lui" },
-  "appDesc": { "message": "Tape @chatgpt nan ba adrès pou jwenn repons nan ChatGPT" }
+  "appDesc": { "message": "Tape @chatgpt nan ba adrès pou jwenn repons nan ChatGPT" },
+  "prefix_ask": { "message": "Mande" }
 }

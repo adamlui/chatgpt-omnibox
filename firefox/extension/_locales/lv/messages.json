@@ -1,5 +1,6 @@
 {
   "appName": { "message": "ChatGPT Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Lai saņemtu atbildes no ChatGPT, adreses joslā ierakstiet @chatgpt" }
+  "appDesc": { "message": "Lai saņemtu atbildes no ChatGPT, adreses joslā ierakstiet @chatgpt" },
+  "prefix_ask": { "message": "DzÄst failu" }
 }

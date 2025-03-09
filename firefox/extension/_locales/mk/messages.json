@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Кутија за сешто за ChatGPT" },
   "appAuthor": { "message": "Адам Луј" },
-  "appDesc": { "message": "Напишете @chatgpt во лентата за адреси за да добиете одговори од ChatGPT" }
+  "appDesc": { "message": "Напишете @chatgpt во лентата за адреси за да добиете одговори од ChatGPT" },
+  "prefix_ask": { "message": "Прашај" }
 }

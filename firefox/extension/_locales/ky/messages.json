@@ -1,5 +1,6 @@
 {
   "appName": { "message": "ЧатGPT Omnibox" },
   "appAuthor": { "message": "Адам Луи" },
-  "appDesc": { "message": "ChatGPT жооп алуу үчүн дарек тилкесинде @chatgpt терүү" }
+  "appDesc": { "message": "ChatGPT жооп алуу үчүн дарек тилкесинде @chatgpt терүү" },
+  "prefix_ask": { "message": "Сура" }
 }

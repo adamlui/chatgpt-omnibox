@@ -1,5 +1,6 @@
 {
   "appName": { "message": "ChatGPT Omnibox" },
   "appAuthor": { "message": "Ադամ Լուի" },
-  "appDesc": { "message": "Մուտքագրեք @chatgpt հասցեի տողում ՝ ChatGPT - ից պատասխաններ ստանալու համար" }
+  "appDesc": { "message": "Մուտքագրեք @chatgpt հասցեի տողում ՝ ChatGPT - ից պատասխաններ ստանալու համար" },
+  "prefix_ask": { "message": "Հարցնել" }
 }

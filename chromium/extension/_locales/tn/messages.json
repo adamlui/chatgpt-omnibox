@@ -1,5 +1,6 @@
 {
   "appName": { "message": "ChatGPT Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Kwala @chatgptmo bareng ya aterese go bona dikarabo go tswa go ChatGPT" }
+  "appDesc": { "message": "Kwala @chatgptmo bareng ya aterese go bona dikarabo go tswa go ChatGPT" },
+  "prefix_ask": { "message": "ASK" }
 }

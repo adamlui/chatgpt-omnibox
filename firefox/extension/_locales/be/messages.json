@@ -1,5 +1,6 @@
 {
   "appName": { "message": "ЧатGPT Omnibox" },
   "appAuthor": { "message": "Адам Луі" },
-  "appDesc": { "message": "Увядзіце @chatgpt у адраснай радку, каб атрымаць адказы ад ChatGPT" }
+  "appDesc": { "message": "Увядзіце @chatgpt у адраснай радку, каб атрымаць адказы ад ChatGPT" },
+  "prefix_ask": { "message": "& Пытаць" }
 }

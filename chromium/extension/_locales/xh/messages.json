@@ -1,5 +1,6 @@
 {
   "appName": { "message": "I-ChatGPT Omnibox" },
   "appAuthor": { "message": "UAdam Lui" },
-  "appDesc": { "message": "Chwetheza @chatgpt kwibha yedilesi ukuze ufumane iimpendulo kwi-ChatGPT" }
+  "appDesc": { "message": "Chwetheza @chatgpt kwibha yedilesi ukuze ufumane iimpendulo kwi-ChatGPT" },
+  "prefix_ask": { "message": "Buza" }
 }

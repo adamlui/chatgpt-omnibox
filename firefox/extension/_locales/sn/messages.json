@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Taura nesu" },
   "appAuthor": { "message": "Taura nesu" },
-  "appDesc": { "message": "Nyora @chatgpt mukero bar kuti uwane mhinduro kubva kuChatGPT" }
+  "appDesc": { "message": "Nyora @chatgpt mukero bar kuti uwane mhinduro kubva kuChatGPT" },
+  "prefix_ask": { "message": "Bvunza" }
 }

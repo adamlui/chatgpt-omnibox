@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Casetă polivalentă ChatGPT" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Tastați @chatgptîn bara de adrese pentru a obține răspunsuri de la ChatGPT" }
+  "appDesc": { "message": "Tastați @chatgptîn bara de adrese pentru a obține răspunsuri de la ChatGPT" },
+  "prefix_ask": { "message": "Întrebaţi" }
 }

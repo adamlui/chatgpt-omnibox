@@ -1,5 +1,6 @@
 {
   "appName": { "message": "סרגל הכתובות ChatGPT" },
   "appAuthor": { "message": "אדם לואי" },
-  "appDesc": { "message": "הקלד @chatgpt בסרגל הכתובות כדי לקבל תשובות מ - ChatGPT" }
+  "appDesc": { "message": "הקלד @chatgpt בסרגל הכתובות כדי לקבל תשובות מ - ChatGPT" },
+  "prefix_ask": { "message": "לשאול" }
 }
