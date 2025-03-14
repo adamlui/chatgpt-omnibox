@@ -3,7 +3,7 @@
   "name": "__MSG_appName__",
   "short_name": "__MSG_prefix_ask__ ChatGPT",
   "description": "__MSG_appDesc__",
-  "version": "2025.3.9",
+  "version": "2025.3.13",
   "author": "Adam Lui",
   "homepage_url": "https://www.chatgptomnibox.com",
   "default_locale": "en",
@@ -17,7 +17,7 @@
   "action": { "default_title": "__MSG_prefix_ask__ ChatGPT" },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "ChatGPT",
+      "name": "__MSG_prefix_ask__ ChatGPT",
       "search_url": "https://chatgpt.com?q={searchTerms}",
       "favicon_url": "icons/icon16.png",
       "keyword": "@chatgpt",
