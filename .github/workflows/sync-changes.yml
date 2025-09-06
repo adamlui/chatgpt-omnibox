@@ -20,8 +20,6 @@ jobs:
       - name: Checkout adamlui/chatgpt-omnibox
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.REPO_SYNC_PAT }}
-          repository: adamlui/chatgpt-omnibox
           path: adamlui/chatgpt-omnibox
           fetch-depth: 2
 
